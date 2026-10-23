@@ -1,0 +1,25 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      auth: false
+      contact: {
+        url: "https://github.com/l0v3m0n3y/gnome"
+      }
+      description: "The JSON language list published by www.gnome.org. Knowledge comes from the community Swift client https://github.com/l0v3m0n3y/gnome (src/gnome.swift, whose `getSupportedLanguages` is the README example) and from a live GET probe on 2026-10-23 (38 languages). That client also calls four other hosts (extensions.gnome.org, discourse.gnome.org, flathub.org and docs.gtk.org); they are separate origins that one server URL cannot reach, so they are not modelled here, and its Flathub search is a POST. No key is needed. Nothing else on www.gnome.org was found to serve JSON (`/wp-json/` is 404)."
+      servers: [
+        {
+          description: "gnome.org website"
+          url: "https://www.gnome.org"
+        }
+      ]
+      summary: "The JSON language list published by www.gnome.org."
+      title: "GNOME Web API"
+      version: "1.0.0"
+      website: "https://gnome.org"
+    }
+  }
+}
+

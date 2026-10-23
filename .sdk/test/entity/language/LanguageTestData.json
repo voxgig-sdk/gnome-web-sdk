@@ -1,0 +1,32 @@
+{
+  "existing": {
+    "language": {
+      "LANGUAGE00": {
+        "id": "LANGUAGE00",
+        "local_name": "s15"
+      },
+      "LANGUAGE01": {
+        "id": "LANGUAGE01",
+        "local_name": "s29"
+      },
+      "LANGUAGE02": {
+        "id": "LANGUAGE02",
+        "local_name": "s3d"
+      }
+    }
+  },
+  "new": {
+    "language": {
+      "language_ref01": {
+        "local_name": "s51"
+      }
+    }
+  },
+  "requests": {
+    "GET /languages.json": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}

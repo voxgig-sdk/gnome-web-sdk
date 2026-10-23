@@ -1,0 +1,11 @@
+# GnomeWeb SDK exists test
+
+require "minitest/autorun"
+require_relative "../GnomeWeb_sdk"
+
+class ExistsTest < Minitest::Test
+  def test_create_test_sdk
+    testsdk = GnomeWebSDK.test(nil, nil)
+    assert !testsdk.nil?
+  end
+end
